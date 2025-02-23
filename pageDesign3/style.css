@@ -1,0 +1,79 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(pexels-maxyne-barcel-10402282\ 1.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px 0 50px;
+    margin-top: 50px;
+}
+ nav ul {
+    display: flex;
+    list-style: none;
+    gap: 63px;
+    font-weight: 400;
+    line-height: 22px;
+    color: orange;
+    justify-content: space-between;
+    padding: 30px 10%;
+}
+.logo{
+
+    cursor: pointer;
+}
+nav div button {
+    padding: 12px 40px;
+    background-color: rgb(168, 60, 10);
+    border: none;
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    font-style: normal;
+    cursor: pointer;
+    line-height: 24px;
+    
+}
+
+main {
+    color: rgb(244, 201, 11);
+margin-top: 115%;
+font-size: 25px;
+max-width: 1154px;
+margin: 40px auto;
+}
+
+main div h1{
+    align-items: center;
+    font-weight: 700;
+justify-content: space-between;
+    padding: 0px 30%;
+    
+    line-height: 50px;
+}
+.large-button{
+    background-color: rgb(168, 60, 10);
+    color: white;
+    align-items: center;
+    border: none;
+    padding: 10px 20px;
+    font-weight: 700;
+    font-size: 15px;
+    margin-top: 30px;
+    margin-left:  400px;
+    line-height: 40px;
+}
+footer{
+    position: absolute;
+bottom: 20px;
+right: 40px;
+}

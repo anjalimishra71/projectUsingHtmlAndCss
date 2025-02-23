@@ -1,0 +1,40 @@
+.main {
+    margin: 6% auto;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 50%;
+}
+
+.form-control {
+    padding: 20px 0;
+    width: 100%;
+    display: flex;
+}
+
+.form-control .content {
+    width: 30%;
+}
+
+.form-control .field {
+    width: 70%;
+}
+
+.form-control input[type='text'],
+select {
+    width: 100%;
+}
+
+.image {
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+}
+
+.flex {
+    display: flex;
+}

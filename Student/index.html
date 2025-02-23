@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Student Registration</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+
+    <form method="POST" id="studentForm">
+        <main class="main">
+            <div class="container">
+                <h2>Student Registration</h2>
+
+                <div class="form-control">
+                    <div class="content">
+                        <label for="name">Name: </label>
+                    </div>
+                    <div class="field">
+                        <input type="text" name="name" id="name" />
+                    </div>
+                </div>
+
+                <div class="form-control">
+                    <div class="content">
+                        <label for="gender">Gender: </label>
+                    </div>
+                    <div class="field">
+                        <label><input type="radio" name="gender" value="male" id="male" /> Male</label>
+                        <label><input type="radio" name="gender" id="female" value="female" /> Female</label>
+                    </div>
+                </div>
+
+                <div class="form-control">
+                    <div class="content">
+                        <label for="gender">Qualification: </label>
+                    </div>
+                    <div class="field">
+                        <label><input type="checkbox" name="10th" id="10th" value="10th" /> 10th</label>
+                        <label><input type="checkbox" name="12th" id="12th" value="12th" /> 12th</label>
+                    </div>
+                </div>
+
+                <div class="form-control">
+                    <div class="content">
+                        <label for="city">City: </label>
+                    </div>
+                    <div class="field">
+                        <select name="city" id="city">
+                            <option value="Prayagraj">Prayagraj</option>
+                            <option value="Banaras">Banaras</option>
+                            <option value="Kanpur">Kanpur</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-control">
+                    <div class="content">
+                        <label for="photo">Photo: </label>
+                    </div>
+                    <div class="field flex">
+                        <input type="file" id="fileInput" accept="image/*" />
+
+                        <img src="" id="image" class="image" />
+                    </div>
+                </div>
+
+                <div>
+                    <button type="submit">Submit</button>
+                    <button type="reset">Reset</button>
+                </div>
+            </div>
+        </main>
+    </form>
+
+    <div class="display-data">
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Gender</th>
+                    <th>Qualification</th>
+                    <th>City</th>
+                    <th>Photo</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody id="dataBody">
+            </tbody>
+        </table>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

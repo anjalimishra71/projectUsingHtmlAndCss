@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.table-border {
+    border: 1px solid green;
+}
+
+.heading {
+    text-align: center;
+    background-color: darkred;
+}
+
+.table-row-heading {
+    background-color: black;
+    text-align: center;
+    color: white;
+    height: 40px;
+    width: 40px;
+}
+
+.logo {
+    float: left;
+    height: 170px;
+}
